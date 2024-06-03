@@ -1,7 +1,7 @@
 # Juseong File Transfer Service
 
 # Description
----
+
 A program that facilitates the easy setup of a server to receive files.
 
 카톡파일전송 300MB제한에 드라이브도 용량이 거의 다 찼는데 용량 좀 큰 파일을 보내려니 마땅히 방법도 없고 열받아서 만들었습니다.
@@ -14,8 +14,6 @@ A program that facilitates the easy setup of a server to receive files.
 
 # How to build
 
----
-
 ```bash
 go build
 ```
@@ -23,8 +21,6 @@ go build
 빌드는 간단히 위와 같고, 빌드시 filetransfer 이름의 실행파일이 생성(확장자는 OS에따라 다름)
 
 # How to start server
-
----
 
 ```sh
 #ubuntu
@@ -45,8 +41,6 @@ Windows의 경우, 터미널 사용하지 않고, exe파일을 gui환경에서 �
 해당 페이지가 확인되면, <본인ip:포트번호>를 상대방에게 알려주어 파일을 전송받을 수 있다.
 
 # How to use this service
-
----
 
 1. 위의 사진의 메인 페이지에서 Choose File을 선택해 파일탐색기에서 전송할 파일을 찾는다. (파일은 한번에 하나씩만 전송가능함)
 2. 전송할 파일이 선택되면 아래와 같이 Selected File: 로 선택된 파일명이 표시된다. 이를 보고 자신이 보낼 파일이 맞는지 확인한다. 
