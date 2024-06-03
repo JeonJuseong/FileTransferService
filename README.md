@@ -1,9 +1,7 @@
 # Juseong File Transfer Service
 
 # Description
-
 ---
-
 A program that facilitates the easy setup of a server to receive files.
 
 카톡파일전송 300MB제한에 드라이브도 용량이 거의 다 찼는데 용량 좀 큰 파일을 보내려니 마땅히 방법도 없고 열받아서 만들었습니다.
