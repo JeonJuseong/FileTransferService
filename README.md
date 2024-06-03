@@ -14,7 +14,7 @@ A program that facilitates the easy setup of a server to receive files.
 
 # How to build
 
-```bash
+```sh
 go build
 ```
 
