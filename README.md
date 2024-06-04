@@ -1,5 +1,9 @@
 # Juseong File Transfer Service
 
+This project supports multiple languages. Please select another language.  
+
+- [日本語](README_jp.md)
+
 # Description
 
 A program that facilitates the easy setup of a server to receive files.
