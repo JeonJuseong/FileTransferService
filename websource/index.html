@@ -7,8 +7,14 @@
 		<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 	</head>
 	<body>
+
+		<div class="overlay" id="overlay">
+			<div class="spinner"></div>
+			Uploading...
+		</div>
+
 		<h2>Juseong File Transfer Service</h2>
-		<p class="version">v0.1</p>
+		<p class="version">v0.2</p>
 		<div class="file-upload-container">
 			<label for="fileInput" class="custom-file-upload">Choose File</label>
 			<button class="upload-button" onclick="uploadFile()">Upload</button>
@@ -21,6 +27,11 @@
 			<p>The mobile page is not provided.</p>
 			<p>This page is recommend to using at PC environment.</p> 
 		</div>
+
+		<a href="https://github.com/JeonJuseong/FileTransferService" class="github-link" target="_blank">
+			<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo">
+			Visit GitHub Repository
+		</a>
 		<script src="/files/chunking.js"></script>
 	</body>
 	</html>

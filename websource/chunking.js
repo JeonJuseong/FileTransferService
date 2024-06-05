@@ -5,6 +5,9 @@ function uploadFile() {
     const totalChunks = Math.ceil(file.size / chunkSize);
     let uploadedChunks = 0;
 
+    const overlay = document.getElementById('overlay');
+    overlay.style.display = 'flex'; // 업로드 시작하면서 화면에 오버레이 띄움
+
     function sendChunk(offset) {
         const xhr = new XMLHttpRequest();
         const chunk = file.slice(offset, offset + chunkSize);
@@ -12,7 +15,7 @@ function uploadFile() {
         formData.append('chunk', chunk);
         formData.append('fileName', file.name);
         formData.append('offset', offset);
-        xhr.open('POST', '/upload', true);
+        xhr.open('POST', '/upload', true); //비동기로 요청함
         xhr.onload = function () {
             if (xhr.status == 200) {
                 uploadedChunks++;
